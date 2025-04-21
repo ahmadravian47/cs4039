@@ -3,7 +3,7 @@ name: Deploy Bicep to Azure
 on:
   push:
     branches:
-      - main  # or master if you kept it
+      - master  
 
 jobs:
   deploy:
